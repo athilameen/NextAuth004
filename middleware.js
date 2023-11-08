@@ -18,6 +18,5 @@ export default withAuth(function middleware(req){
 }
 );
 
-//export { default } from "next-auth/middleware";
 
-export const config = { matcher: ['/CreateUser']};
+export const config = { matcher: ['/CreateUser', '/ChangePassword']};

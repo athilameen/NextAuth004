@@ -2,6 +2,7 @@
 
 #EVN
 *.env.prod
+*.env.local
 
 # dependencies
 /node_modules
